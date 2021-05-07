@@ -27,7 +27,7 @@ N_PREFIXES = [
     "penta", "hexa", "hepta", "octa", "nona",
     "deca", "hendeca", "dodeca", "trideca", "tetradeca",
 ]
-
+# test
 
 def linear_system(q_format: str, a_format: str) -> Tuple[str, str]:
     x, y = random.randint(2, 5), random.randint(2, 5)
