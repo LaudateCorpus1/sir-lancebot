@@ -20,9 +20,7 @@ class Reverse(commands.Cog):
         If no text is given then the users nickname is reversed.
         """
         if not text:
-            display_name = ctx.author.display_name
-
-            display_name = display_name[::-1]
+            display_name = ctx.author.display_name[::-1]
 
             await ctx.send(f"Your reversed nickname is: `{display_name}`", allowed_mentions=AllowedMentions.none())
 
